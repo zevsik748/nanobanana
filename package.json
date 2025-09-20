@@ -9,6 +9,7 @@
     "check": "tsc",
     "check:format": "prettier --check '**/*.ts'",
     "format": "prettier --write '**/*.ts'"
+    “start”: “node .mastra/output/index.mjs”,
   },
   "keywords": [],
   "type": "module",
