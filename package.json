@@ -1,4 +1,4 @@
-"engines": { "node": "20.x" } Пример (фрагмент): { "name": "…", "version": "1.0.0", "engines": { "node": "20.x" }, "scripts": { "build": "mastra build", … }, "devDependencies": { "mastra": "^0.17.1", … } }
+"engines": { "node": "20.x" },
 
 
 {
