@@ -2,12 +2,8 @@
 "name": "agent-stack-mastra",
 "version": "1.0.0",
 "main": "index.js",
-"scripts": {
-"test": "echo "Error: no test specified" && exit 1",
-"dev": "mastra dev",
-"build": "mastra build",
-"start": "node .mastra/output/index.mjs"
-},
+"scripts": { "test": "echo Error: no test specified && exit 1", "dev": "mastra dev", "build": "mastra build", "start": "node .mastra/output/index.mjs" },
+
 
 "dependencies": {
 "@ai-sdk/google": "^2.0.14",
