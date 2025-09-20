@@ -2,7 +2,7 @@
   "name": "agent-stack-mastra",
   "version": "1.0.0",
   "main": "index.js",
- “scripts”: {
+“scripts”: {
 “test”: “echo "Error: no test specified" && exit 1”,
 “dev”: “mastra dev”,
 “build”: “mastra build”,
@@ -10,7 +10,7 @@
 “check:format”: “prettier --check ‘/*.ts’",
 “format”: "prettier --write '/*.ts’”,
 “start”: “node .mastra/output/index.mjs”
-}
+},
   "keywords": [],
   "type": "module",
   "author": "",
