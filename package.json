@@ -2,15 +2,13 @@
 "name": "agent-stack-mastra",
 "version": "1.0.0",
 "main": "index.js",
-"scripts": { "test": "echo "Error: no test specified" && exit 1", "dev": "mastra dev", "build": "mastra build", "start": "node .mastra/output/index.mjs" },
-"keywords": [],
-"type": "module",
-"author": "",
-"license": "ISC",
-"description": "",
-"engines": {
-"node": ">=20.9.0"
+"scripts": {
+"test": "echo "Error: no test specified" && exit 1",
+"dev": "mastra dev",
+"build": "mastra build",
+"start": "node .mastra/output/index.mjs"
 },
+
 "dependencies": {
 "@ai-sdk/google": "^2.0.14",
 "@ai-sdk/openai": "^1.3.22",
